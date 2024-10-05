@@ -1,5 +1,5 @@
-def add(x, y):
-    return x + y
+def add(x, y, z):
+    return x + y + z
 
 def subtract(x, y):
     return x - y
@@ -22,8 +22,9 @@ while True:
 
     num1 = float(input("첫 번째 숫자를 입력하세요: "))
     num2 = float(input("두 번째 숫자를 입력하세요: "))
+    num3 = float(input("세 번째 숫자를 입력하세요: "))
 
     if choice == '1':
-        print(f"{num1} + {num2} = {add(num1, num2)}")
+        print(f"{num1} + {num2} = {add(num1, num2, num3)}")
     elif choice == '2':
         print(f"{num1} - {num2} = {subtract(num1, num2)}")
