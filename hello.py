@@ -14,7 +14,6 @@ while True:
 
     if choice == '3':
         print("프로그램을 종료합니다.")
-        print("안녕히 가세요.")
         break
 
     if choice not in ('1', '2'):
@@ -27,8 +26,5 @@ while True:
 
     if choice == '1':
         print(f"{num1} + {num2} = {add(num1, num2, num3)}")
-        print("덧셈입니다. 덧셈입니다.")
-
     elif choice == '2':
         print(f"{num1} - {num2} = {subtract(num1, num2)}")
-        print("뺄셈입니다. 뺄셈입니다.")
