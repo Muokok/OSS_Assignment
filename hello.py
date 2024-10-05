@@ -25,6 +25,8 @@ while True:
     num3 = float(input("세 번째 숫자를 입력하세요: "))
 
     if choice == '1':
+        print("덧셈입니다.")
         print(f"{num1} + {num2} = {add(num1, num2, num3)}")
     elif choice == '2':
+        print("뺄셈입니다.")
         print(f"{num1} - {num2} = {subtract(num1, num2)}")
