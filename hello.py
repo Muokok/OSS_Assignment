@@ -14,6 +14,7 @@ while True:
 
     if choice == '3':
         print("프로그램을 종료합니다.")
+        print("안녕히 가세요.")
         break
 
     if choice not in ('1', '2'):
